@@ -2,11 +2,15 @@
 name = "tile_editor"
 version = "0.1.0"
 edition = "2024"
+build = "build.rs"
 
 [dependencies]
 egui = "0.32.3"
 eframe = "0.32.3"
 image = "0.25.8"
 rfd = "0.15.4"
-serde = { version = "1.0.219", features = ["derive"]}
+serde = { version = "1.0.219", features = ["derive"] }
 glam = "0.30.5"
+
+[build-dependencies]
+winres = "0.1"
