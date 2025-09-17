@@ -9,7 +9,7 @@ fn main() -> eframe::Result<()> {
     };
 
     eframe::run_native(
-        "Tilemap MVP",
+        "Goob TileMap Editor",
         native_options,
         Box::new(|_cc| {
             // Return Result<Box<dyn eframe::App>, Box<dyn Error + Send + Sync>>
